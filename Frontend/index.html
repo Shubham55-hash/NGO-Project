@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>She Can Foundation | Empowering Her Future</title>
+    <meta name="description" content="She Can Foundation advances education, mentorship, and opportunity for women and girls through community-led support." />
+    <meta name="theme-color" content="#f7efe3" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+    <div class="page-glow page-glow-left" aria-hidden="true"></div>
+    <div class="page-glow page-glow-right" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
+
+    <!-- ─── NAVIGATION ─────────────────────────────────────────── -->
+    <header class="site-header" id="top">
+      <nav class="navbar container" aria-label="Primary navigation">
+        <a class="brand" href="#home" aria-label="She Can Foundation — go to home">
+          <span class="brand-mark" aria-hidden="true">SC</span>
+          <span class="brand-text">
+            <strong>She Can Foundation</strong>
+            <small>Education. Dignity. Opportunity.</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" type="button"
+          aria-expanded="false" aria-controls="navActions" aria-label="Toggle navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+
+        <div class="nav-actions" id="navActions">
+          <button class="theme-toggle" id="themeToggle" type="button"
+            aria-label="Toggle color theme" aria-pressed="false">
+            <span class="theme-toggle-track" aria-hidden="true">
+              <span class="theme-toggle-thumb"></span>
+            </span>
+            <span class="theme-toggle-text">Light</span>
+          </button>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#programs">Programs</a>
+          <a class="nav-link" href="#stories">Stories</a>
+          <a class="nav-cta magnetic-button" href="#join">Join the Mission</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="content">
+
+      <!-- ─── HERO ───────────────────────────────────────────────── -->
+      <section class="hero container" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy reveal" data-reveal-delay="0">
+          <p class="eyebrow">A future built with her at the center</p>
+          <h1 id="hero-title">
+            When girls<br>
+            gain <span>learning &amp;<br>room to lead</span>,<br>
+            communities rise.
+          </h1>
+          <p class="hero-text">
+            She Can Foundation opens doors — to education, mentorship, and the steady belief that every girl's future is worth investing in.
+          </p>
+          <div class="hero-actions">
+            <button class="primary-button ripple-button magnetic-button" type="button"
+              data-open-modal="volunteerModal" id="heroVolunteerBtn">
+              <span>Volunteer With Us</span>
+            </button>
+            <a class="secondary-button animated-link" href="#about" id="heroExploreLink">
+              Explore Our Work
+            </a>
+          </div>
+
+        </div>
+
+        <div class="hero-visual reveal" data-reveal-delay="0.12">
+          <div class="hero-frame parallax-media" data-parallax="16">
+            <div class="hero-badge" aria-label="Community first">
+              <span>Community first</span>
+              <strong>Real change starts close to home.</strong>
+            </div>
+            <img
+              src="images/hero_learning.png"
+              alt="Girls learning together with a mentor in a bright community classroom — candid, warm, hopeful"
+              width="1200"
+              height="1500"
+              fetchpriority="high"
+              decoding="async"
+            />
+          </div>
+          <aside class="impact-card glass-card reveal-card" data-reveal-delay="0.22" aria-label="Impact statement">
+            <p>Why this work matters</p>
+            <div class="impact-metric">
+              <strong>One safe place can change a lifetime.</strong>
+              <span>Programs designed to keep girls in school, families supported, and women stepping into leadership.</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- ─── PROMISE BAND ──────────────────────────────────────── -->
+      <section class="story-band reveal" data-reveal-delay="0.05" aria-labelledby="promise-title">
+        <div class="container story-grid">
+          <article class="story-card glass-card">
+            <p class="section-label">Our Promise</p>
+            <h2 id="promise-title">Support that feels human, not distant.</h2>
+            <p>We work alongside women and girls with care that is practical, respectful, and rooted in local realities — from school continuity to confidence and long-term connection.</p>
+          </article>
+          <div class="quote-panel">
+            <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+            <p>Empowerment is not a slogan. It is access, encouragement, and the steady belief that her ambitions deserve structure around them.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── ABOUT / MISSION (split layout) ───────────────────── -->
+      <section class="about-section container" id="about" aria-labelledby="about-title">
+        <div class="about-layout reveal" data-reveal-delay="0.08">
+
+          <div class="about-image-col">
+            <div class="about-img-frame">
+              <img
+                src="images/mentorship_session.png"
+                alt="A mentor sharing a warm moment of guidance with two young women in the community"
+                width="900"
+                height="1100"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="about-img-badge glass-card">
+                <p class="section-label">Our approach</p>
+                <strong>Fewer promises.<br>Deeper follow-through.</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-text-col">
+            <p class="section-label">About She Can Foundation</p>
+            <h2 id="about-title">We turn belief into access.</h2>
+            <p class="about-lead">She Can Foundation expands opportunity for women and girls through education, confidence-building, and community care. Lasting empowerment happens when someone is not only inspired — but equipped.</p>
+
+            <div class="about-values" role="list">
+              <div class="value-item" role="listitem">
+                <div class="value-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                </div>
+                <div>
+                  <strong>Education Access</strong>
+                  <p>Opening classrooms that should never have been closed.</p>
+                </div>
+              </div>
+              <div class="value-item" role="listitem">
+                <div class="value-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                </div>
+                <div>
+                  <strong>Mentorship &amp; Belonging</strong>
+                  <p>Spaces where women are heard, guided, and valued.</p>
+                </div>
+              </div>
+              <div class="value-item" role="listitem">
+                <div class="value-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 22c5.52 0 10-4.48 10-10S17.52 2 12 2 2 6.48 2 12s4.48 10 10 10z"/><path d="M12 6v6l4 2"/></svg>
+                </div>
+                <div>
+                  <strong>Long-Term Independence</strong>
+                  <p>Building pathways that outlast a single moment of aid.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── PROGRAMS ──────────────────────────────────────────── -->
+      <section class="programs-section container" id="programs" aria-labelledby="programs-title">
+        <div class="section-shell reveal" data-reveal-delay="0.04">
+          <div class="section-header">
+            <div>
+              <p class="section-label">What We Build</p>
+              <h2 id="programs-title">Programs shaped around real lives.</h2>
+            </div>
+            <p class="section-desc">Three core initiatives, each designed to meet women and girls where they are — and walk forward with them.</p>
+          </div>
+
+          <div class="program-grid">
+            <article class="program-card glass-card stagger-item">
+              <div class="program-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+              </div>
+              <div class="program-meta">
+                <span>Learning continuity</span>
+                <strong>School Pathways</strong>
+              </div>
+              <p>Supporting girls at risk of dropping out — supplies, mentorship, and family-centered encouragement that keeps learning alive.</p>
+              <div class="program-card-footer">
+                <span class="program-tag">Education</span>
+                <span class="program-tag">Retention</span>
+              </div>
+            </article>
+
+            <article class="program-card glass-card stagger-item">
+              <div class="program-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <div class="program-meta">
+                <span>Confidence and belonging</span>
+                <strong>Mentor Circles</strong>
+              </div>
+              <p>Small community groups where women ask questions, find belonging, and practice leadership in safe, consistent settings.</p>
+              <div class="program-card-footer">
+                <span class="program-tag">Mentorship</span>
+                <span class="program-tag">Community</span>
+              </div>
+            </article>
+
+            <article class="program-card glass-card stagger-item">
+              <div class="program-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <div class="program-meta">
+                <span>Future readiness</span>
+                <strong>Skills for Independence</strong>
+              </div>
+              <p>Practical workshops strengthening decision-making, financial confidence, and long-term self-advocacy.</p>
+              <div class="program-card-footer">
+                <span class="program-tag">Life Skills</span>
+                <span class="program-tag">Leadership</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── HOW WE WORK — visual timeline ────────────────────── -->
+      <section class="timeline-section" aria-labelledby="timeline-title">
+        <div class="container timeline-layout reveal" data-reveal-delay="0.06">
+          <div class="timeline-header">
+            <p class="section-label">How We Work</p>
+            <h2 id="timeline-title">A process built on trust.</h2>
+          </div>
+          <div class="timeline-track" role="list">
+            <div class="timeline-step stagger-item" role="listitem">
+              <div class="timeline-node" aria-hidden="true">01</div>
+              <div class="timeline-connector" aria-hidden="true"></div>
+              <h3>Listen</h3>
+              <p>We begin with presence — understanding what each community genuinely needs before offering anything.</p>
+            </div>
+            <div class="timeline-step stagger-item" role="listitem">
+              <div class="timeline-node" aria-hidden="true">02</div>
+              <div class="timeline-connector" aria-hidden="true"></div>
+              <h3>Connect</h3>
+              <p>Girls are paired with mentors and peers who show up consistently — not just once.</p>
+            </div>
+            <div class="timeline-step stagger-item" role="listitem">
+              <div class="timeline-node" aria-hidden="true">03</div>
+              <div class="timeline-connector" aria-hidden="true"></div>
+              <h3>Equip</h3>
+              <p>Resources, skills, and confidence tools provided through thoughtful, sustained programs.</p>
+            </div>
+            <div class="timeline-step stagger-item" role="listitem">
+              <div class="timeline-node" aria-hidden="true">04</div>
+              <div class="timeline-connector timeline-connector--last" aria-hidden="true"></div>
+              <h3>Sustain</h3>
+              <p>We stay. Follow-through and reliability are at the core of everything we do.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── COMMUNITY STORIES — testimonial slider ────────────── -->
+      <section class="stories-section container" id="stories" aria-labelledby="stories-title">
+        <div class="stories-layout reveal" data-reveal-delay="0.08">
+
+          <div class="stories-header">
+            <div>
+              <p class="section-label">Voices From The Community</p>
+              <h2 id="stories-title">Stories that stay with us.</h2>
+            </div>
+            <div class="slider-controls" aria-label="Testimonial navigation">
+              <button class="slider-btn" id="sliderPrev" aria-label="Previous testimonial" type="button">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+              </button>
+              <button class="slider-btn" id="sliderNext" aria-label="Next testimonial" type="button">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="stories-main">
+            <div class="stories-image-col">
+              <div class="stories-img-frame">
+                <img
+                  src="images/community_workshop.png"
+                  alt="Young women gathered in a community learning workshop — engaged, collaborative, hopeful"
+                  width="900"
+                  height="1100"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+            </div>
+
+            <div class="testimonial-slider-wrap">
+              <div class="testimonial-slider" id="testimonialSlider" aria-live="polite" aria-atomic="true">
+                <div class="testimonial-slides">
+                  <article class="testimonial-slide is-active" aria-hidden="false">
+                    <span class="testimonial-q-mark" aria-hidden="true">&ldquo;</span>
+                    <blockquote>
+                      <p>For the first time, I felt someone was planning <em>with</em> me, not just for me.</p>
+                      <footer>
+                        <cite>Asha</cite>
+                        <span>Student, Mentor Circle participant</span>
+                      </footer>
+                    </blockquote>
+                  </article>
+                  <article class="testimonial-slide" aria-hidden="true">
+                    <span class="testimonial-q-mark" aria-hidden="true">&ldquo;</span>
+                    <blockquote>
+                      <p>The difference was consistency. The girls knew someone would return, listen, and help them keep going.</p>
+                      <footer>
+                        <cite>Priya</cite>
+                        <span>Community volunteer partner</span>
+                      </footer>
+                    </blockquote>
+                  </article>
+                  <article class="testimonial-slide" aria-hidden="true">
+                    <span class="testimonial-q-mark" aria-hidden="true">&ldquo;</span>
+                    <blockquote>
+                      <p>I didn't think I could lead anything. Now I run the circle meetings. It happened slowly — then all at once.</p>
+                      <footer>
+                        <cite>Meena</cite>
+                        <span>Program graduate, Mentor Circle</span>
+                      </footer>
+                    </blockquote>
+                  </article>
+                </div>
+              </div>
+              <div class="slider-dots" role="tablist" aria-label="Testimonial slides">
+                <button class="slider-dot is-active" role="tab" aria-selected="true" data-slide="0" aria-label="Testimonial 1 of 3"></button>
+                <button class="slider-dot" role="tab" aria-selected="false" data-slide="1" aria-label="Testimonial 2 of 3"></button>
+                <button class="slider-dot" role="tab" aria-selected="false" data-slide="2" aria-label="Testimonial 3 of 3"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── VOLUNTEER CTA ─────────────────────────────────────── -->
+      <section class="join-section" id="join" aria-labelledby="join-title">
+        <div class="join-inner container">
+          <div class="join-layout glass-card reveal" data-reveal-delay="0.05">
+            <div class="join-glow-1" aria-hidden="true"></div>
+            <div class="join-glow-2" aria-hidden="true"></div>
+            <div class="join-copy">
+              <p class="section-label">Be Part Of It</p>
+              <h2 id="join-title">Bring steadiness, care, and possibility closer.</h2>
+              <p>Join as a volunteer, supporter, or community partner. Even one thoughtful step can become the structure around someone's next chapter.</p>
+            </div>
+            <div class="join-actions">
+              <button class="primary-button ripple-button magnetic-button" type="button"
+                data-open-modal="volunteerModal" id="joinVolunteerBtn">
+                <span>Start Volunteering</span>
+              </button>
+              <a class="secondary-button animated-link" href="#about" id="joinLearnLink">
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ─── FOOTER ────────────────────────────────────────────── -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- COLUMN 1: Brand -->
+          <div class="footer-col-brand">
+            <div class="footer-brand">
+              <div class="footer-brand-mark" aria-hidden="true">SC</div>
+              <div>
+                <h2>She Can Foundation</h2>
+                <p>Nurturing education, dignity, and opportunity so women and girls can shape the futures they deserve.</p>
+              </div>
+            </div>
+            
+            <nav class="footer-links" aria-label="Footer navigation">
+              <a href="#about">About</a>
+              <a href="#programs">Programs</a>
+              <a href="#stories">Stories</a>
+              <a href="#join">Volunteer</a>
+            </nav>
+
+            <div class="socials" aria-label="Social media links">
+              <a href="#" aria-label="Instagram" class="social-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+              </a>
+              <a href="#" aria-label="LinkedIn" class="social-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </a>
+              <a href="#" aria-label="YouTube" class="social-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96C1 8.12 1 12 1 12s0 3.88.46 5.58a2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96C23 15.88 23 12 23 12s0-3.88-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="currentColor" stroke="none"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- COLUMN 2: Stay Connected -->
+          <div class="footer-col-connect">
+            <p class="footer-email-eyebrow">Stay Connected</p>
+            <h3 class="footer-email-heading">Get updates from the ground up.</h3>
+            <p class="footer-email-sub">Stories, impact reports, and ways to help — straight from the communities we work with.</p>
+            
+            <div class="footer-email-right">
+              <div class="footer-email-pill" id="footerEmailPill" role="group" aria-label="Email signup form">
+                <input
+                  type="email"
+                  id="footerEmailInput"
+                  class="footer-email-input"
+                  placeholder="Your email address"
+                  aria-label="Your email address"
+                  autocomplete="email"
+                />
+                <button
+                  type="button"
+                  id="footerEmailSubmit"
+                  class="footer-email-btn"
+                  aria-label="Join mailing list"
+                >Join Us</button>
+              </div>
+              <div class="footer-email-success" id="footerEmailSuccess" aria-live="polite" hidden>
+                <span class="footer-email-check" aria-hidden="true">✓</span>
+                You're on the list — thank you for caring.
+              </div>
+              <p class="footer-email-trust">Monthly impact stories · No spam, ever · Unsubscribe anytime</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-meta">
+          <p>&copy; 2026 She Can Foundation. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ─── VOLUNTEER MODAL ───────────────────────────────────── -->
+    <div class="modal" id="volunteerModal" aria-hidden="true" role="dialog"
+      aria-modal="true" aria-labelledby="volunteerTitle">
+      <div class="modal-backdrop" data-close-modal></div>
+      <div class="modal-panel glass-card">
+        <button class="modal-close" type="button"
+          aria-label="Close volunteer form" data-close-modal>
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <p class="section-label">Volunteer Interest</p>
+        <h2 id="volunteerTitle">Tell us how you'd like to show up.</h2>
+        <p class="modal-copy">We'd love to hear how you want to contribute. This takes less than two minutes.</p>
+        <form class="interest-form" id="interestForm" novalidate>
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" autocomplete="name" required placeholder="Your full name" />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" autocomplete="email" required placeholder="your@email.com" />
+          </label>
+          <label>
+            <span>How would you like to help?</span>
+            <textarea name="interest" rows="3"
+              placeholder="Mentoring, fundraising, community outreach..." required></textarea>
+          </label>
+          <button class="primary-button ripple-button" type="submit">
+            <span>Send Interest</span>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
