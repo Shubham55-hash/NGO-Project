@@ -2,8 +2,6 @@
 
 > A modern, emotionally resonant NGO website built for women and girls — centered around education, mentorship, and community support.
 
-![Hero](./Frontend/images/screenshots/hero.png)
-
 ---
 
 ## 🔗 Live Demo
@@ -12,33 +10,6 @@
 
 ---
 
-## 📸 Screenshots
-
-**Hero — Light Mode**
-![Hero](./Frontend/images/screenshots/hero.png)
-
-**Programs**
-![Programs](./Frontend/images/screenshots/programs.png)
-
-**About**
-![About](./Frontend/images/screenshots/about.png)
-
-**How We Work — Process Timeline**
-![Process](./Frontend/images/screenshots/process.png)
-
-**Stories from the Community**
-![Stories](./Frontend/images/screenshots/stories.png)
-
-**Call to Action**
-![CTA](./Frontend/images/screenshots/cta.png)
-
-**Volunteer Interest Modal**
-![Modal](./Frontend/images/screenshots/modal.png)
-
-**Footer — Dark Mode**
-![Footer](./Frontend/images/screenshots/footer.png)
-
----
 
 ## ✨ Features
 
